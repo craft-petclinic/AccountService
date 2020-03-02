@@ -14,23 +14,20 @@ public class VetModel {
 
 	@NotBlank(message = "name must not be empty")
 	private String name;
+	@NotBlank(message = "gender must not be empty")
 	private String gender;
 	@NotBlank(message = "dob must not be empty")
 	private String dob;
+	@NotBlank(message = "contact must not be empty")
 	private String contact;
 	@NotBlank(message = "Email can not be empty")
-	@Email(message = "email should be a valid email")
+	@Email(message = "email id is invalid")
 	private String emailId;
 	private String qualification;
-	@NotBlank(message = "Address : street must not be empty")
 	private String street;
-	@NotBlank(message = "Address : city must not be empty")
 	private String city;
-	@NotBlank(message = "Address : state must not be empty")
 	private String state;
-	@NotBlank(message = "Address : country must not be empty")
 	private String country;
-	@NotBlank(message = "Address : postl code must not be empty")
 	private String postalCode;
 
 	/**

@@ -1,4 +1,4 @@
-package com.demo.petclinic.account.exceptionhandler;
+package com.demo.petclinic.account.errorhandler;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

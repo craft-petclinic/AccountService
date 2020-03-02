@@ -1,4 +1,4 @@
-package com.demo.petclinic.account.exceptionhandler;
+package com.demo.petclinic.account.errorhandler;
 
 import java.time.LocalDateTime;
 import java.util.List;
