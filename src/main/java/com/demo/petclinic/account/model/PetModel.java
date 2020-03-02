@@ -14,17 +14,17 @@ public class PetModel {
 	private String id;
 
 	@NotBlank(message = "name must not be empty")
-	private String pname;
-	private String pspecies;
-	private String pbreed;
+	private String name;
+	private String species;
+	private String breed;
 	@NotBlank(message = "DOB must not be empty")
-	private String petDob;
+	private String dob;
 	private String gender;
 	private String color;
 
 	@NotBlank(message = "owner first name must not be empty")
-	private String ofname;
-	private String olname;
+	private String ownerFirstName;
+	private String ownerLastName;
 	@NotBlank(message = "Address : street must not be empty")
 	private String street;
 	@NotBlank(message = "Address : city must not be empty")
@@ -33,7 +33,7 @@ public class PetModel {
 	private String state;
 	@NotEmpty(message = "Address : country must not be empty")
 	private String country;
-	@NotEmpty(message = "Address : postl code must not be empty")
+	@NotEmpty(message = "Address : postal code must not be empty")
 	private String postalCode;
 	private String contact;
 	@NotBlank(message = "Email can not be empty")
@@ -55,59 +55,59 @@ public class PetModel {
 	}
 
 	/**
-	 * @return the pname
+	 * @return the name
 	 */
-	public String getPname() {
-		return pname;
+	public String getName() {
+		return name;
 	}
 
 	/**
-	 * @param pname the pname to set
+	 * @param name the name to set
 	 */
-	public void setPname(String pname) {
-		this.pname = pname;
+	public void setName(String name) {
+		this.name = name;
 	}
 
 	/**
-	 * @return the pspecies
+	 * @return the species
 	 */
-	public String getPspecies() {
-		return pspecies;
+	public String getSpecies() {
+		return species;
 	}
 
 	/**
-	 * @param pspecies the pspecies to set
+	 * @param species the species to set
 	 */
-	public void setPspecies(String pspecies) {
-		this.pspecies = pspecies;
+	public void setSpecies(String species) {
+		this.species = species;
 	}
 
 	/**
-	 * @return the pbreed
+	 * @return the breed
 	 */
-	public String getPbreed() {
-		return pbreed;
+	public String getBreed() {
+		return breed;
 	}
 
 	/**
-	 * @param pbreed the pbreed to set
+	 * @param breed the breed to set
 	 */
-	public void setPbreed(String pbreed) {
-		this.pbreed = pbreed;
+	public void setBreed(String breed) {
+		this.breed = breed;
 	}
 
 	/**
-	 * @return the petDob
+	 * @return the dob
 	 */
-	public String getPetDob() {
-		return petDob;
+	public String getDob() {
+		return dob;
 	}
 
 	/**
-	 * @param petDob the petDob to set
+	 * @param dob the dob to set
 	 */
-	public void setPetDob(String petDob) {
-		this.petDob = petDob;
+	public void setDob(String dob) {
+		this.dob = dob;
 	}
 
 	/**
@@ -139,31 +139,31 @@ public class PetModel {
 	}
 
 	/**
-	 * @return the ofname
+	 * @return the ownerFirstName
 	 */
-	public String getOfname() {
-		return ofname;
+	public String getOwnerFirstName() {
+		return ownerFirstName;
 	}
 
 	/**
-	 * @param ofname the ofname to set
+	 * @param ownerFirstName the ownerFirstName to set
 	 */
-	public void setOfname(String ofname) {
-		this.ofname = ofname;
+	public void setOwnerFirstName(String ownerFirstName) {
+		this.ownerFirstName = ownerFirstName;
 	}
 
 	/**
-	 * @return the olname
+	 * @return the ownerLastName
 	 */
-	public String getOlname() {
-		return olname;
+	public String getOwnerLastName() {
+		return ownerLastName;
 	}
 
 	/**
-	 * @param olname the olname to set
+	 * @param ownerLastName the ownerLastName to set
 	 */
-	public void setOlname(String olname) {
-		this.olname = olname;
+	public void setOwnerLastName(String ownerLastName) {
+		this.ownerLastName = ownerLastName;
 	}
 
 	/**

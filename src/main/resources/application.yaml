@@ -4,7 +4,7 @@ spring:
     uri: mongodb://localhost:27017/petclinic
 
 server:
-  port: 8080
+  port: 8081
   
   
   

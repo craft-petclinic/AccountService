@@ -1,4 +1,4 @@
-package com.demo.petclinic.account.exceptionhandler;
+package com.demo.petclinic.account.errorhandler;
 
 import java.util.ArrayList;
 
